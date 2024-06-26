@@ -1,0 +1,19 @@
+/* BASIC STYLES HERE */
+.profile-picture {
+  height: 200px;
+  max-width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.profile-picture.profile-picture-sm {
+  height: 64px;
+}
+
+.bg-img {
+  background-image: url("https://cdn.dribbble.com/users/2147508/screenshots/4398055/render_dribbble.gif");
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
