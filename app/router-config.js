@@ -1,12 +1,13 @@
 import { AccountController } from "./controllers/AccountController.js";
-import { HomeController } from "./controllers/HomeController.js";
+import { PokeAPIController } from "./controllers/PokeAPIController.js";
+import { SandboxPokemonsController } from "./controllers/SandboxPokemonsController.js";
 import { AuthGuard } from "./services/AuthService.js";
 import { Router } from "./utils/Router.js";
 
 export const router = new Router([
   {
     path: "",
-    controllers: [HomeController],
+    controllers: [PokeAPIController, SandboxPokemonsController],
     view: "app/views/HomeView.html",
   },
   {

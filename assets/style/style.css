@@ -17,3 +17,8 @@
   height: 100%;
   object-fit: cover;
 }
+
+.img {
+  height: 170px;
+  width: 170px;
+}
